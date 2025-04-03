@@ -1,13 +1,14 @@
 <template>
   <div
-    class="w-full h-[56px] sm:h-[184px] font-[700] text-[22px] sm:text-[72px] leading-none flex sm:justify-center items-center justify-between pl-[20px] pr-[9.66px] pt-[18px] pb-[11px] sm:p-0"
+    class="w-full h-[56px] sm:h-[184px] font-[700] text-[22px] sm:text-[72px] leading-[1.2] flex sm:justify-center items-center justify-between pl-[20px] pr-[9.66px] pt-[18px] pb-[11px] sm:p-0"
   >
     <span class="">Planet Hopper</span>
     <span
-      class="font-[400] text-[14.27px] sm:text-[22.28px] leading-none flex gap-[4px] items-center sm:absolute sm:top-[18.59px] sm:right-[20px] cursor-pointer"
+      class="font-[400] text-[14.27px] sm:text-[22.28px] leading-[1.2] flex gap-[4px] items-center sm:absolute sm:top-[18.59px] sm:right-[20px] cursor-pointer"
       @click="handleRestart"
     >
       <svg
+        id="restart"
         class="w-[12.8px] h-[12.8px] sm:w-[20px] sm:h-[20px]"
         viewBox="0 0 14 14"
         fill="none"
