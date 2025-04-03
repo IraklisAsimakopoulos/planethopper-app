@@ -32,6 +32,9 @@
 </template>
 
 <script setup>
+import { useFormattedPopulation } from "../composables/useFormattedPopulation";
+import { useRandomPicture } from "../composables/useRandomPicture";
+
 const props = defineProps({
   selected: {
     type: Boolean,
