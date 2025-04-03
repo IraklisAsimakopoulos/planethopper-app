@@ -3,7 +3,7 @@
     class="flex flex-col gap-[10px] w-full sm:max-w-[524px] w-full sm:h-[1845px] px-[62px] py-[12px] sm:p-[24px] bg-[#DEF8F3]"
   >
     <div
-      class="text-[#000000] text-[18px] leading-none font-[600] h-[22px] text-center"
+      class="text-[#000000] text-[18px] leading-[1.2] font-[600] h-[22px] text-center"
     >
       Your planetary route
     </div>
@@ -20,7 +20,7 @@
       </div>
 
       <span
-        class="cursor-pointer text-[#EB5757] flex gap-[6px] self-center text-[16px] sm:text-[22px] leading-none items-center"
+        class="cursor-pointer text-[#EB5757] flex gap-[6px] self-center text-[16px] sm:text-[22px] leading-[1.2] items-center"
         @click="onClear"
       >
         <svg
@@ -40,7 +40,7 @@
 
     <div
       v-else
-      class="text-[16px] text-[#919191] leading-none font-[600] h-[22px] text-center"
+      class="text-[16px] text-[#919191] leading-[1.2] font-[600] h-[22px] text-center"
     >
       You have not selected any planets
     </div>

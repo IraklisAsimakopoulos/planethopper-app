@@ -40,7 +40,7 @@ import { useAxiosCallback } from "~/composables/useAxios";
 import SpinnerLoader from "~/components/SpinnerLoader.vue";
 import AppLayout from "~/layouts/AppLayout.vue";
 
-const planets = ref([]); // Initialize as an array
+const planets = ref([]);
 const currentPage = ref(1);
 const {
   executeRequest: fetchPlanets,
@@ -71,7 +71,7 @@ const loadMorePlanets = () => {
     instanceUrl: `https://swapi.dev/api/planets/?page=${currentPage.value}`,
     onSuccess: (data) => {
       currentPage.value++;
-      planets.value = planets.value.concat(data.results); // Correctly append new data
+      planets.value = planets.value.concat(data.results);
       console.log("planets", planets.value);
     },
   });
