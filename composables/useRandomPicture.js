@@ -1,3 +1,5 @@
+import { computed } from "vue";
+
 export function useRandomPicture() {
   return computed(() => {
     const urls = [
