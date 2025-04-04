@@ -1,7 +1,7 @@
 <template>
   <div class="flex gap-[12px] items-center w-fit h-[31px]">
     <div
-      class="spinner-loader w-[16.33px] h-[16.33px] sn:w-[25px] sm:h-[25px]"
+      class="spinner-loader w-[16.33px] h-[16.33px] sm:w-[25px] sm:h-[25px]"
     />
     <span
       class="text-[#676767] font-[400] leading-[1.2] text-[16.33px] sm:text-[25px]"
