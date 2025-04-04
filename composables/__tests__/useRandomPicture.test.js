@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import { useRandomPicture } from "./useRandomPicture";
+import { useRandomPicture } from "../useRandomPicture";
 
 describe("useRandomPicture", () => {
   it("returns a random picture URL", () => {

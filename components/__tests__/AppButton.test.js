@@ -1,6 +1,6 @@
 import { mount } from "@vue/test-utils";
 import { describe, it, expect } from "vitest";
-import AppButton from "./AppButton.vue";
+import AppButton from "../AppButton.vue";
 
 describe("AppButton", () => {
   it("renders the label correctly", () => {

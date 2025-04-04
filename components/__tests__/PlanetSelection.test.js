@@ -1,6 +1,6 @@
 import { mount } from "@vue/test-utils";
 import { describe, it, expect, vi } from "vitest";
-import PlanetSelection from "./PlanetSelection.vue";
+import PlanetSelection from "../PlanetSelection.vue";
 
 describe("PlanetSelection", () => {
   it("renders selected planets", () => {

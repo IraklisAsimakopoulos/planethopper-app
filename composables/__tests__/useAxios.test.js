@@ -1,4 +1,4 @@
-import { useAxios, useAxiosCallback } from "./useAxios";
+import { useAxios, useAxiosCallback } from "../useAxios";
 import axios from "axios";
 import { vi, describe, it, expect, beforeEach } from "vitest";
 

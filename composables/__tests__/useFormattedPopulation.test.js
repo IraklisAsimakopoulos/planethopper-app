@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { ref } from "vue";
-import { useFormattedPopulation } from "./useFormattedPopulation";
+import { useFormattedPopulation } from "../useFormattedPopulation";
 
 describe("useFormattedPopulation", () => {
   it("formats a number with commas", () => {

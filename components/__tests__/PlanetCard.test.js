@@ -1,12 +1,12 @@
 import { mount } from "@vue/test-utils";
 import { describe, it, expect, vi } from "vitest";
-import PlanetCard from "./PlanetCard.vue";
+import PlanetCard from "../PlanetCard.vue";
 
-vi.mock("../composables/useFormattedPopulation", () => ({
+vi.mock("../../composables/useFormattedPopulation", () => ({
   useFormattedPopulation: vi.fn(() => "1,000"),
 }));
 
-vi.mock("../composables/useRandomPicture", () => ({
+vi.mock("../../composables/useRandomPicture", () => ({
   useRandomPicture: vi.fn(() => "https://example.com/image.jpg"),
 }));
 

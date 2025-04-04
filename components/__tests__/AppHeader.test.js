@@ -1,6 +1,6 @@
 import { mount } from "@vue/test-utils";
 import { describe, it, expect, vi } from "vitest";
-import AppHeader from "./AppHeader.vue";
+import AppHeader from "../AppHeader.vue";
 
 describe("AppHeader", () => {
   it("should call window.location.reload when restart is clicked", async () => {
