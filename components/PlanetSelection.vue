@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col gap-[10px] w-full sm:max-w-[524px] w-full sm:h-[1845px] px-[62px] py-[12px] sm:p-[24px] bg-[#DEF8F3]"
+    class="flex flex-col gap-[10px] w-full sm:max-w-[524px] w-full sm:h-[1845px] px-[62px] py-[12px] sm:p-[24px] bg-[#DEF8F3] sticky top-[56px] sm:top-[184px] sm:h-[896px]"
   >
     <div
       class="text-[#000000] text-[18px] leading-[1.2] font-[600] h-[22px] text-center"
