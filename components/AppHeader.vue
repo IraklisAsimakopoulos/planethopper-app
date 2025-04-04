@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full h-[56px] sm:h-[184px] font-[700] text-[22px] sm:text-[72px] leading-[1.2] flex sm:justify-center items-center justify-between pl-[20px] pr-[9.66px] pt-[18px] pb-[11px] sm:p-0"
+    class="w-full h-[56px] sm:h-[184px] font-[700] text-[22px] sm:text-[72px] leading-[1.2] flex sm:justify-center items-center justify-between pl-[20px] pr-[9.66px] pt-[18px] pb-[11px] sm:p-0 sticky top-[0] bg-white z-10"
   >
     <span class="">Planet Hopper</span>
     <span

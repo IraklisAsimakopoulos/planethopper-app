@@ -1,7 +1,7 @@
 <template>
   <div
     :class="[
-      'rounded-[2.72px] sm:rounded-[4px] flex gap-[15.66px] sm:gap-[23px] h-[98px] sm:h-[144px] p-[6.81px] sm:p-[10px] max-w-[831px] w-full hover:border-[#01C3A7] cursor-pointer',
+      'rounded-[2.72px] sm:rounded-[4px] flex gap-[15.66px] md:gap-[23px] h-[98px] sm:h-[144px] p-[6.81px] sm:p-[10px] max-w-[831px] w-full hover:border-[#01C3A7] cursor-pointer',
       {
         'border border-[0.68px] sm:border-[1px] border-[#D1D1D1]': !selected,
         'border border-[4px] border-[#01C3A7]': selected,

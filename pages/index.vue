@@ -1,7 +1,7 @@
 <template>
   <AppLayout>
     <div
-      class="flex flex-col gap-[25px] w-full max-w-[831px] mx-auto flex-[2] items-center sm:items-start px-[9px] pb-[18px] sm:px-0 flex-[2] order-[2] sm:order-[1]"
+      class="flex flex-col gap-[25px] w-full max-w-[831px] mx-auto flex-[2] items-center sm:items-start px-[9px] pb-[18px] sm:px-0 flex-[2] order-[2] sm:order-[1] mt-[2px]"
     >
       <template v-if="planets && planets.length > 0">
         <PlanetCard
