@@ -36,9 +36,12 @@
 
 <script setup>
 import { ref, onMounted } from "vue";
-import { useAxiosCallback } from "~/composables/useAxios";
-import SpinnerLoader from "~/components/SpinnerLoader.vue";
-import AppLayout from "~/layouts/AppLayout.vue";
+import { useAxiosCallback } from "../composables/useAxios";
+import SpinnerLoader from "../components/SpinnerLoader.vue";
+import AppLayout from "../layouts/AppLayout.vue";
+import PlanetCard from "../components/PlanetCard.vue";
+import AppButton from "../components/AppButton.vue";
+import PlanetSelection from "../components/PlanetSelection.vue";
 
 const planets = ref([]);
 const currentPage = ref(1);
@@ -72,7 +75,6 @@ const loadMorePlanets = () => {
     onSuccess: (data) => {
       currentPage.value++;
       planets.value = planets.value.concat(data.results);
-      console.log("planets", planets.value);
     },
   });
 };
