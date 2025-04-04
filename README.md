@@ -1,75 +1,101 @@
-# Nuxt Minimal Starter
+# Planet Hopper
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Description
 
-## Setup
+Planet Hopper is a Nuxt 3 application that allows users to explore and select routes between different planets. Users can select up to 5 planets, clear their selection, or restart the demo.
+The app fetches planet data from an external API and displays it in a user-friendly interface.
 
-Make sure to install dependencies:
+## Features
 
-```bash
-# npm
-npm install
+- **Explore Planets**: View detailed information about various planets, including climate, terrain, and population.
+- **Select Routes**: Choose up to 5 planets to create a custom planetary route.
+- **Clear Selection**: Easily clear your selected planets with a single click.
+- **Restart Demo**: Reset the application to its initial state to start over.
+- **Responsive Design**: Optimized for both desktop and mobile devices using Tailwind CSS.
 
-# pnpm
-pnpm install
+## Technologies Used
 
-# yarn
-yarn install
+- **Nuxt 3**: A modern framework for building Vue.js applications.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+- **Vitest**: A fast and lightweight testing framework for Vue components.
 
-# bun
-bun install
-```
+## Installation
 
-## Development Server
+1. **Clone the Repository**:
 
-Start the development server on `http://localhost:3000`:
+   ```bash
+   git clone https://github.com/IraklisAsimakopoulos/planethopper-app.git
+   ```
 
-```bash
-# npm
-npm run dev
+2. **Navigate to the project directory**:
 
-# pnpm
-pnpm dev
+   ```bash
+   cd notes-app
+   ```
 
-# yarn
-yarn dev
+3. **Install Dependencies**:
 
-# bun
-bun run dev
-```
+   ```bash
+   npm install
+   ```
 
-## Production
+## Usage
 
-Build the application for production:
+1. **Run the Development Server**:
 
-```bash
-# npm
-npm run build
+   ```bash
+   npm run dev
+   ```
 
-# pnpm
-pnpm build
+2. **Open your browser** and go to [http://localhost:3000](http://localhost:3000) to view the app.
 
-# yarn
-yarn build
+## Testing
 
-# bun
-bun run build
-```
+1. **Run Tests**:
 
-Locally preview production build:
+   ```bash
+   npm run test
+   ```
 
-```bash
-# npm
-npm run preview
+   **With watch option on**:
 
-# pnpm
-pnpm preview
+   ```bash
+   npm run test:watch
+   ```
 
-# yarn
-yarn preview
+## Usage
 
-# bun
-bun run preview
-```
+- **Select Planets**: Click on a planet card to add it to your route.
+- **Clear Route**: Click the "Clear" button to remove all selected planets.
+- **Restart Demo**: Click "Restart Demo" to reset the application.
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Screenshots
+
+### Desktop
+
+![Planet Hopper Desktop Screenshot 1](./assets/desktop-screenshot.png)
+_Desktop screenshot with not selected planets_
+![Planet Hopper Desktop Screenshot 2](./assets/desktop-screenshot2.png)
+_Desktop screenshot with selected planets_
+
+### Mobile
+
+![Planet Hopper Mobile Screenshot 1](./assets/mobile-screenshot.png)
+_Mobile screenshot with not selected planets_
+
+![Planet Hopper Mobile Screenshot 2](./assets/mobile-screenshot2.png)
+_Mobile screenshot with selected planets_
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+Iraklis Asimakopoulos-Kouloulias - [iraklis.asimakopoulos@gmail.com](mailto:iraklis.asimakopoulos@gmail.com)
+
+Project Link: [https://github.com/IraklisAsimakopoulos/planethopper-app](https://github.com/IraklisAsimakopoulos/planethopper-app)
